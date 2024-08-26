@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/abarrotes_hernandez
+    password: root
+  application:
+    name: juni5app
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+api:
+ spotify:
+  myprofile: https://api.spotify.com/v1/me
+
+
+spotify:
+  client-id: a692b080b86f4cdfb489ea8b68713405
+  client-secret: a607497a7781486eaf4fd02662f069ca
+  token-url: https://accounts.spotify.com/api/token
